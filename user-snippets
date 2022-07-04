@@ -1,0 +1,32 @@
+{
+  "React Functional Component": {
+    "prefix": "rfc",
+    "body": [
+      "const ${1:${TM_FILENAME_BASE}} = ({${2}}) => {",
+      "  return(",
+      "    <div>",
+      "      ${3}",
+      "    </div>",
+      "  )",
+      "}"
+    ],
+    "description": "React Functional Component"
+  },
+  "console.log": {
+    "prefix": "cl",
+    "body": ["console.log($1)"],
+    "description": "console.log"
+  },
+  "Typescript React Function Component": {
+    "prefix": "tfc",
+    "body": [
+      "interface ${TM_FILENAME_BASE}Props {",
+      "$1",
+      "}",
+      "",
+      "export const $TM_FILENAME_BASE: React.FC<${TM_FILENAME_BASE}Props> = ({$2}) => {",
+      "\t\treturn ($3);",
+      "}"
+    ]
+  }
+}
