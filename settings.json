@@ -1,0 +1,21 @@
+{
+  "editor.formatOnType": true,
+  "workbench.colorTheme": "One Darker Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "python.autoComplete.extraPaths": [],
+  "python.analysis.extraPaths": [],
+  "workbench.startupEditor": "none",
+  "terminal.integrated.scrollback": 10000,
+  "editor.formatOnSave": true,
+  "gitlens.statusBar.dateFormat": "",
+
+  //for prisma
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  }
+}
